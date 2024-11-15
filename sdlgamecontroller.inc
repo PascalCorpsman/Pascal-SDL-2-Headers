@@ -42,8 +42,8 @@ type
    *  To count the number of game controllers in the system for the following:
    *  int nJoysticks = SDL_NumJoysticks();
    *  int nGameControllers = 0;
-   *  for ( int i = 0; i < nJoysticks; i++ ) {
-   *      if ( SDL_IsGameController(i) ) {
+   *  for ( int i = 0; i < nJoysticks; i++ )
+   *      if ( SDL_IsGameController(i) )
    *          nGameControllers++;
    *
    *
